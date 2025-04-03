@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neutron Company - Продаж автомобілів</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .car-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .car-table th, .car-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .car-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .car-list, .links {
+            list-style-type: none;
+            padding: 0;
+        }
+        .car-list li {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            padding: 10px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .car-list img {
+            width: 100px;
+            height: auto;
+            margin-right: 15px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .car-list img:hover {
+            transform: scale(1.1);
+        }
+        .links li {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .links a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Neutron Company</h1>
+    <p>Найкращі автомобілі за вигідними цінами</p>
+</header>
+
+<main>
+    <section>
+        <h2>Про нас</h2>
+        <p>Neutron Company спеціалізується на продажу нових та вживаних автомобілів, пропонуючи широкий вибір моделей від провідних брендів світу.</p>
+    </section>
+
+    <section>
+        <h2>Найпопулярніші моделі</h2>
+        <ul class="car-list">
+            <li><img src="./images/tesla.jpg" alt="Tesla Model S">Tesla Model S</li>
+            <li><img src="./images/bmw.jpg" alt="BMW X5">BMW X5</li>
+            <li><img src="./images/mercedes.jpg" alt="Mercedes-Benz E-Class">Mercedes-Benz E-Class</li>
+            <li><img src="./images/audi.jpg" alt="Audi Q7">Audi Q7</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Каталог автомобілів</h2>
+        <table class="car-table">
+            <tr>
+                <th>Модель</th>
+                <th>Рік</th>
+                <th>Ціна</th>
+                <th>Стан</th>
+            </tr>
+            <tr>
+                <td>Tesla Model S</td>
+                <td>2023</td>
+                <td>$85,000</td>
+                <td>Нова</td>
+            </tr>
+            <tr>
+                <td>BMW X5</td>
+                <td>2021</td>
+                <td>$60,000</td>
+                <td>Вживана</td>
+            </tr>
+            <tr>
+                <td>Mercedes-Benz E-Class</td>
+                <td>2022</td>
+                <td>$75,000</td>
+                <td>Нова</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Наші партнери</h2>
+        <ul class="links">
+            <li><a href="https://www.tesla.com" target="_blank">Tesla</a></li>
+            <li><a href="https://www.bmw.com" target="_blank">BMW</a></li>
+            <li><a href="https://www.mercedes-benz.com" target="_blank">Mercedes-Benz</a></li>
+            <li><a href="https://www.audi.com" target="_blank">Audi</a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2055 Neutron Company. Всі права захищено.</p>
+</footer>
+
+</body>
+</html>
